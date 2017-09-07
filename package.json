@@ -1,0 +1,17 @@
+{
+  "name": "csc-321-algorithm-design-and-analysis",
+  "version": "1.0.0",
+  "description": "A slew of algorithms, assignments and other work for my Algorithm Design and Analysis class",
+  "scripts": {
+    "start": "npm run build",
+    "build": "rm -rf dist && tsc",
+    "insertion-sort": "node dist/insertion-sort.js",
+    "merge-sort": "node dist/merge-sort.js"
+  },
+  "author": "Michael Solati",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "typescript": "^2.4.2"
+  }
+}
