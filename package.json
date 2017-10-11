@@ -6,7 +6,8 @@
     "start": "npm run build",
     "build": "rm -rf dist && tsc",
     "insertion-sort": "node dist/insertion-sort.js",
-    "merge-sort": "node dist/merge-sort.js"
+    "merge-sort": "node dist/merge-sort.js",
+    "quick-sort": "node dist/quick-sort.js"
   },
   "author": "Michael Solati",
   "license": "ISC",
