@@ -5,14 +5,18 @@
   "scripts": {
     "start": "npm run build",
     "build": "rm -rf dist && tsc",
+    "binary-tree": "node dist/binary-tree/index.js",
     "insertion-sort": "node dist/insertion-sort.js",
     "merge-sort": "node dist/merge-sort.js",
-    "quick-sort": "node dist/quick-sort.js"
+    "quick-sort": "node dist/quick-sort.js",
+    "watch": "nodemon -e ts --watch src -x \"npm run build\"",
+    "postinstall": "npm run build"
   },
   "author": "Michael Solati",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^8.0.26",
+    "nodemon": "^1.12.1",
     "typescript": "^2.4.2"
   }
 }

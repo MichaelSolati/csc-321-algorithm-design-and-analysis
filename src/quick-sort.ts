@@ -20,7 +20,6 @@ function quicksort(c: number[]): any {
   const more: number[] = [];
   c.forEach((val: number) => (pivot > val) ? less.push(val) : more.push(val));
   return [...quicksort(less), pivot, ...quicksort(more)];
-
 }
 
 console.log('Sorted array:', quicksort(filtered));
