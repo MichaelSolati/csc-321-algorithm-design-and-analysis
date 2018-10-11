@@ -12,7 +12,7 @@
 ## Introduction
 A slew of algorithms, assignments and other work for my Algorithm Design and Analysis class.
 
-Be sure to `npm install` to install all dependencies, then run `npm run build` to transpile the code into Javascript.
+Be sure to `npm install` to install all dependencies.
 
 ## Sorts
 ### Insertion Sort

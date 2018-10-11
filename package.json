@@ -3,20 +3,16 @@
   "version": "1.0.0",
   "description": "A slew of algorithms, assignments and other work for my Algorithm Design and Analysis class",
   "scripts": {
-    "start": "npm run build",
-    "build": "rm -rf dist && tsc",
-    "binary-tree": "node dist/binary-tree/index.js",
-    "insertion-sort": "node dist/insertion-sort.js",
-    "merge-sort": "node dist/merge-sort.js",
-    "quick-sort": "node dist/quick-sort.js",
-    "watch": "nodemon -e ts --watch src -x \"npm run build\"",
-    "postinstall": "npm run build"
+    "binary-tree": "ts-node src/binary-tree/index.ts",
+    "insertion-sort": "ts-node src/insertion-sort.ts",
+    "merge-sort": "ts-node src/merge-sort.ts",
+    "quick-sort": "ts-node src/quick-sort.ts"
   },
   "author": "Michael Solati",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^8.0.26",
-    "nodemon": "^1.12.1",
-    "typescript": "^2.4.2"
+    "@types/node": "^10.11.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.2"
   }
 }
