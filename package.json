@@ -9,10 +9,10 @@
     "quick-sort": "ts-node src/quick-sort.ts"
   },
   "author": "Michael Solati",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@types/node": "^12.0.6",
-    "ts-node": "^8.2.0",
-    "typescript": "^3.5.1"
+    "@types/node": "x.x.x",
+    "ts-node": "x.x.x",
+    "typescript": "x.x.x"
   }
 }
